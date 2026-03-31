@@ -1,13 +1,13 @@
 'use client'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Phone } from 'lucide-react'
+import { Menu, X, Phone, GalleryHorizontalEnd } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { PHONE_TEL } from '@/components/ui/PhoneLink'
 
 const NAV_LINKS = [
+  { href: '/',              label: 'Home' },
   { href: '/services',      label: 'Services' },
   { href: '/service-areas', label: 'Service Areas' },
   { href: '/about',         label: 'About' },
@@ -47,18 +47,20 @@ export function Navbar() {
           aria-label="Main navigation"
         >
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3" aria-label="Garage Door Solutions of Central Florida — Home">
-            <Image
-              src="/gallery/android-chrome-512x512.png"
-              alt=""
-              width={40}
-              height={40}
-              priority
-              className={cn(
-                'h-10 w-10 rounded-lg transition-all duration-300 shrink-0',
-                scrolled && isHome ? 'opacity-100' : 'brightness-0 invert'
-              )}
-            />
+          <Link href="/" className="flex items-center gap-2.5" aria-label="Garage Door Solutions of Central Florida — Home">
+            <div className={cn(
+              'w-9 h-9 rounded-lg flex items-center justify-center shrink-0 transition-colors duration-300',
+              scrolled && isHome ? 'bg-brand-navy' : 'bg-brand-amber'
+            )}>
+              <GalleryHorizontalEnd
+                size={20}
+                className={cn(
+                  'transition-colors duration-300',
+                  scrolled && isHome ? 'text-brand-amber' : 'text-brand-navy'
+                )}
+                aria-hidden="true"
+              />
+            </div>
             <div className={cn(
               'leading-none transition-colors duration-300',
               scrolled && isHome ? 'text-brand-navy' : 'text-white'
@@ -71,7 +73,7 @@ export function Navbar() {
           {/* Desktop links */}
           <ul className="hidden md:flex items-center gap-8" role="list">
             {NAV_LINKS.map(link => {
-              const active = link.href !== '/#reviews' && (pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href)))
+              const active = link.href !== '/#reviews' && (pathname === link.href || (link.href !== '/' && link.href !== '/#reviews' && pathname.startsWith(link.href)))
               const linkColor = transparent || (!scrolled && !isHome) ? 'text-white/90 hover:text-white' : scrolled && isHome ? 'text-brand-slate hover:text-brand-sky' : 'text-white/90 hover:text-white'
               return (
                 <li key={link.href}>
@@ -130,7 +132,7 @@ export function Navbar() {
         <nav className="flex flex-col flex-1 px-6 py-8" aria-label="Mobile navigation">
           <ul className="flex flex-col gap-2 mb-auto" role="list">
             {NAV_LINKS.map(link => {
-              const active = link.href !== '/#reviews' && (pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href)))
+              const active = link.href !== '/#reviews' && (pathname === link.href || (link.href !== '/' && link.href !== '/#reviews' && pathname.startsWith(link.href)))
               return (
                 <li key={link.href}>
                   <Link
