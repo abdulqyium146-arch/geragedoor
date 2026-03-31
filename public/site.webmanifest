@@ -1,0 +1,23 @@
+{
+  "name": "Garage Door Solutions of Central Florida",
+  "short_name": "GDS Central FL",
+  "description": "Central Florida's trusted garage door company. Call (863) 808-3341.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1F3A",
+  "theme_color": "#0B1F3A",
+  "icons": [
+    {
+      "src": "/gallery/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/gallery/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

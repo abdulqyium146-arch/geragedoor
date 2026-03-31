@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Garage Door Services in Central Florida | Fast & Reliable',
     description: 'Expert garage door repair, installation & emergency service across Central Florida.',
     url: 'https://garagedoorsolutionsofcf.com/services',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Garage Door Services Central Florida' }],
+    images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Garage Door Services Central Florida' }],
   },
 }
 

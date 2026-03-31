@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'About Us | Garage Door Solutions of Central Florida',
     description: '15+ years of trusted garage door service in Central Florida.',
     url: 'https://garagedoorsolutionsofcf.com/about',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'About Garage Door Solutions of Central Florida' }],
+    images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'About Garage Door Solutions of Central Florida' }],
   },
 }
 

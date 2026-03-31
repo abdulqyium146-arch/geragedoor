@@ -32,7 +32,7 @@ export function generateMetadata({ params }: Props): Metadata {
       title: `Garage Door Services in ${city.name}, FL`,
       description: `Trusted garage door company serving ${city.name}, FL. Local team, honest pricing, fast response.`,
       url: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `Garage Door Services in ${city.name}, FL` }],
+      images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: `Garage Door Services in ${city.name}, FL` }],
     },
   }
 }

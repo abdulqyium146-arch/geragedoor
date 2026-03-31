@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone, Clock, MapPin } from 'lucide-react'
 import { SERVICES } from '@/lib/services'
 import { CITIES } from '@/lib/cities'
@@ -11,8 +12,14 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Brand + NAP */}
         <div>
-          <div className="font-display text-2xl font-bold mb-4">
-            Garage Door <span className="text-brand-amber">Solutions</span>
+          <div className="mb-4">
+            <Image
+              src="/gallery/android-chrome-512x512.png"
+              alt="Garage Door Solutions of Central Florida Logo"
+              width={160}
+              height={45}
+              className="h-12 w-auto brightness-0 invert opacity-90"
+            />
           </div>
           <p className="text-slate-400 text-sm leading-relaxed mb-6">
             Central Florida&apos;s trusted garage door company. Serving Polk, Orange, Osceola &amp; Lake Counties for 15+ years.

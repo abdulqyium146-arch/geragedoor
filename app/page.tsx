@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: 'Garage Door Solutions of Central Florida | (863) 808-3341',
     description: "Central Florida's #1 rated garage door company. Same-day service, free quotes.",
     url: 'https://garagedoorsolutionsofcf.com',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Garage Door Solutions of Central Florida' }],
+    images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Garage Door Solutions of Central Florida' }],
   },
 }
 

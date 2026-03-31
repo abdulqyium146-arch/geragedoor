@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Service Areas | Garage Door Solutions of Central Florida',
     description: 'Serving 20+ cities across Central Florida. Find your city.',
     url: 'https://garagedoorsolutionsofcf.com/service-areas',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Central Florida Service Areas' }],
+    images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Central Florida Service Areas' }],
   },
 }
 

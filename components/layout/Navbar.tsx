@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Menu, X, Phone } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -46,10 +47,18 @@ export function Navbar() {
           aria-label="Main navigation"
         >
           {/* Logo */}
-          <Link href="/" className="flex items-center" aria-label="Garage Door Solutions home">
-            <span className={cn('font-display text-xl font-bold transition-colors duration-300', transparent || (!scrolled && !isHome) ? 'text-white' : scrolled && isHome ? 'text-brand-slate' : 'text-white')}>
-              Garage Door{' '}<span className="text-brand-amber">Solutions</span>
-            </span>
+          <Link href="/" className="flex items-center" aria-label="Garage Door Solutions of Central Florida — Home">
+            <Image
+              src="/gallery/android-chrome-512x512.png"
+              alt="Garage Door Solutions of Central Florida Logo"
+              width={160}
+              height={45}
+              priority
+              className={cn(
+                'h-10 w-auto transition-all duration-300',
+                scrolled && isHome ? '' : 'brightness-0 invert'
+              )}
+            />
           </Link>
 
           {/* Desktop links */}

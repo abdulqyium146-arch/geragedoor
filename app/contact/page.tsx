@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'Contact Us | Free Garage Door Quote | (863) 808-3341',
     description: 'Get a free quote for garage door repair or installation in Central Florida.',
     url: 'https://garagedoorsolutionsofcf.com/contact',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Contact Garage Door Solutions of Central Florida' }],
+    images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Contact Garage Door Solutions of Central Florida' }],
   },
 }
 

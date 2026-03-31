@@ -42,6 +42,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: BASE_URL,
   },
+  icons: {
+    icon: [
+      { url: '/gallery/favicon.ico', sizes: 'any' },
+      { url: '/gallery/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/gallery/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+    ],
+    apple: [
+      { url: '/gallery/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    shortcut: '/gallery/favicon.ico',
+    other: [
+      { rel: 'icon', url: '/gallery/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { rel: 'icon', url: '/gallery/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -52,10 +68,10 @@ export const metadata: Metadata = {
       'Serving all of Central Florida. Real people, same-day service, 15+ years experience. Licensed & Insured.',
     images: [
       {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Garage Door Solutions of Central Florida',
+        url: '/gallery/android-chrome-512x512.png',
+        width: 512,
+        height: 512,
+        alt: 'Garage Door Solutions of Central Florida Logo',
       },
     ],
   },
@@ -63,7 +79,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Garage Door Solutions of Central Florida',
     description: 'Serving Polk, Orange, Osceola & Lake Counties. Call (863) 808-3341.',
-    images: ['/og-image.jpg'],
+    images: ['/gallery/android-chrome-512x512.png'],
   },
   robots: {
     index: true,
@@ -92,7 +108,13 @@ const localBusinessSchema = {
   priceRange: '$$',
   currenciesAccepted: 'USD',
   paymentAccepted: 'Cash, Credit Card, Check',
-  image: `${BASE_URL}/og-image.jpg`,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${BASE_URL}/gallery/android-chrome-512x512.png`,
+    width: 512,
+    height: 512,
+  },
+  image: `${BASE_URL}/gallery/android-chrome-512x512.png`,
   description:
     "Central Florida's trusted garage door company with 15+ years of experience. Serving Polk, Orange, Osceola, and Lake Counties.",
   address: {
