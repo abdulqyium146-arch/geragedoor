@@ -2,6 +2,7 @@
 const nextConfig = {
   compress: true,
   poweredByHeader: false,
+  generateBuildId: async () => null,
 
   images: {
     formats: ['image/avif', 'image/webp'],

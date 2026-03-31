@@ -145,9 +145,9 @@ export default function CityPage({ params }: Props) {
             {SERVICES.map(service => (
               <li key={service.slug}>
                 <Link
-                  href={`/services#${service.slug}`}
+                  href={`/services/${service.slug}`}
                   className="group block bg-white rounded-xl border border-gray-100 shadow-card p-6 hover:border-brand-sky hover:shadow-md transition-all h-full"
-                  aria-label={`${service.title} in ${city.name}, FL`}
+                  aria-label={`${service.title} service in ${city.name}, FL`}
                 >
                   <div className="text-3xl mb-3" aria-hidden="true">{service.icon}</div>
                   <h3 className="font-display text-lg font-bold text-brand-slate mb-2 group-hover:text-brand-sky transition-colors">

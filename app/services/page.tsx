@@ -8,7 +8,7 @@ import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
 import { PhoneLink } from '@/components/ui/PhoneLink'
 
 export const metadata: Metadata = {
-  title: 'Garage Door Services in Central Florida | Fast & Reliable | (863) 808-3341',
+  title: 'Garage Door Services Central Florida | Fast & Reliable | (863) 808-3341',
   description:
     'Complete garage door services in Central Florida: new door installation, spring replacement, opener repair, emergency service. Serving Polk, Orange & Osceola Counties.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com/services' },
@@ -28,7 +28,7 @@ const itemListSchema = {
     '@type': 'ListItem',
     position: i + 1,
     name: s.title,
-    url: `https://garagedoorsolutionsofcf.com/services#${s.slug}`,
+    url: `https://garagedoorsolutionsofcf.com/services/${s.slug}`,
   })),
 }
 
@@ -96,11 +96,11 @@ export default function ServicesPage() {
                 </ul>
                 <div className="flex flex-wrap gap-3">
                   <Link
-                    href="/contact"
+                    href={`/services/${service.slug}`}
                     className="inline-flex items-center gap-2 bg-brand-amber text-brand-navy font-bold px-6 py-3 rounded-xl hover:bg-brand-amberHover transition-colors min-h-[44px]"
-                    aria-label={`Get a free quote for ${service.title}`}
+                    aria-label={`Learn more about ${service.title}`}
                   >
-                    Get Free Quote
+                    Learn More
                     <ChevronRight size={16} aria-hidden="true" />
                   </Link>
                   <PhoneLink className="inline-flex items-center gap-2 border border-brand-steel/30 text-brand-steel font-semibold px-6 py-3 rounded-xl hover:border-brand-sky hover:text-brand-sky transition-colors min-h-[44px] text-sm" />

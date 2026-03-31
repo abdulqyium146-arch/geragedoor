@@ -14,7 +14,7 @@ export function BreadcrumbNav({ crumbs }: Props) {
       '@type': 'ListItem',
       position: i + 1,
       name: c.label,
-      item: `https://garagedoorsolutionscfl.com${c.href}`,
+      item: `https://garagedoorsolutionsofcf.com${c.href}`,
     })),
   }
   return (
