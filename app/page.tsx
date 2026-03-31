@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone, Shield, Clock, Star, ChevronRight, Wrench, Zap, Award } from 'lucide-react'
 import { SERVICES } from '@/lib/services'
 import { CITIES } from '@/lib/cities'
@@ -113,8 +114,18 @@ export default function HomePage() {
         className="relative min-h-[90vh] flex items-center bg-brand-navy hero-clip overflow-hidden"
         aria-labelledby="hero-heading"
       >
-        {/* Background overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-navy via-brand-blue/90 to-brand-navy/80 z-10" />
+        {/* Hero background — real GDS service truck on a Lakeland FL job site */}
+        <Image
+          src="/images/garage-door-solutions-service-truck-lakeland-fl.webp"
+          alt="Garage Door Solutions of Central Florida service truck parked in front of installed garage doors in Lakeland, FL"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+          quality={85}
+        />
+        {/* Dark overlay preserves text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-navy/92 via-brand-blue/88 to-brand-navy/80 z-10" />
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 py-24 grid lg:grid-cols-2 gap-12 items-center">
           <div>
