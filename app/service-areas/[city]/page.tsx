@@ -9,6 +9,7 @@ import { StructuredData } from '@/components/seo/StructuredData'
 import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
 import { NearbyCities } from '@/components/ui/NearbyCities'
 import { PHONE_TEL, PHONE_DISPLAY } from '@/components/ui/PhoneLink'
+import { ServiceIcon } from '@/components/ui/ServiceIcon'
 
 interface Props {
   params: { city: string }
@@ -149,7 +150,9 @@ export default function CityPage({ params }: Props) {
                   className="group block bg-white rounded-xl border border-gray-100 shadow-card p-6 hover:border-brand-sky hover:shadow-md transition-all h-full"
                   aria-label={`${service.title} service in ${city.name}, FL`}
                 >
-                  <div className="text-3xl mb-3" aria-hidden="true">{service.icon}</div>
+                  <div className="mb-3">
+                    <ServiceIcon name={service.icon} size={28} className="text-brand-amber" />
+                  </div>
                   <h3 className="font-display text-lg font-bold text-brand-slate mb-2 group-hover:text-brand-sky transition-colors">
                     {service.title}
                   </h3>

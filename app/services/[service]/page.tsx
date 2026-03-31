@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Phone, CheckCircle, ChevronRight, MapPin } from 'lucide-react'
 import { SERVICES, getServiceBySlug } from '@/lib/services'
+import { ServiceIcon } from '@/components/ui/ServiceIcon'
 import { CTABanner } from '@/components/ui/CTABanner'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
@@ -140,7 +141,9 @@ export default function ServicePage({ params }: Props) {
           {/* Visual card */}
           <div className="hidden lg:flex justify-center">
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-10 text-center max-w-sm w-full">
-              <div className="text-7xl mb-4" aria-hidden="true">{service.icon}</div>
+              <div className="flex justify-center mb-4">
+                <ServiceIcon name={service.icon} size={72} className="text-brand-amber" />
+              </div>
               <p className="font-display text-2xl font-bold text-white mb-3">{service.shortTitle}</p>
               <p className="text-slate-300 text-sm leading-relaxed">{service.description}</p>
             </div>
@@ -251,7 +254,7 @@ export default function ServicePage({ params }: Props) {
                   className="group flex items-start gap-4 p-5 bg-brand-cream rounded-xl border border-gray-100 hover:border-brand-sky hover:shadow-card transition-all"
                   aria-label={`${s.title} in Central Florida`}
                 >
-                  <span className="text-3xl shrink-0" aria-hidden="true">{s.icon}</span>
+                  <ServiceIcon name={s.icon} size={28} className="text-brand-amber shrink-0 mt-0.5" />
                   <div>
                     <p className="font-display font-bold text-brand-slate group-hover:text-brand-sky transition-colors mb-1">
                       {s.title}

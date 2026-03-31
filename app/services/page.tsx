@@ -6,6 +6,7 @@ import { CTABanner } from '@/components/ui/CTABanner'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
 import { PhoneLink } from '@/components/ui/PhoneLink'
+import { ServiceIcon } from '@/components/ui/ServiceIcon'
 
 export const metadata: Metadata = {
   title: 'Garage Door Services Central Florida | Fast & Reliable | (863) 808-3341',
@@ -77,7 +78,7 @@ export default function ServicesPage() {
               {/* Content */}
               <div className={isEven ? '' : 'lg:col-start-2'}>
                 <div className="w-16 h-16 bg-brand-amber/10 rounded-2xl flex items-center justify-center mb-6">
-                  <span className="text-brand-amber text-3xl" aria-hidden="true">{service.icon}</span>
+                  <ServiceIcon name={service.icon} size={32} className="text-brand-amber" />
                 </div>
                 <h2
                   id={`service-${service.slug}-heading`}
@@ -109,7 +110,9 @@ export default function ServicesPage() {
 
               {/* Visual card */}
               <div className={`bg-gradient-to-br from-brand-navy to-brand-blue rounded-2xl p-10 flex flex-col items-center justify-center text-center min-h-[280px] ${isEven ? '' : 'lg:col-start-1'}`}>
-                <div className="text-6xl mb-4" aria-hidden="true">{service.icon}</div>
+                <div className="mb-4">
+                  <ServiceIcon name={service.icon} size={64} className="text-brand-amber" />
+                </div>
                 <p className="font-display text-xl font-bold text-white mb-2">{service.shortTitle}</p>
                 <p className="text-slate-300 text-sm">{service.description}</p>
               </div>

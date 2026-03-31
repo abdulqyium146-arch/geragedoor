@@ -47,18 +47,25 @@ export function Navbar() {
           aria-label="Main navigation"
         >
           {/* Logo */}
-          <Link href="/" className="flex items-center" aria-label="Garage Door Solutions of Central Florida — Home">
+          <Link href="/" className="flex items-center gap-3" aria-label="Garage Door Solutions of Central Florida — Home">
             <Image
               src="/gallery/android-chrome-512x512.png"
-              alt="Garage Door Solutions of Central Florida Logo"
-              width={160}
-              height={45}
+              alt=""
+              width={40}
+              height={40}
               priority
               className={cn(
-                'h-10 w-auto transition-all duration-300',
-                scrolled && isHome ? '' : 'brightness-0 invert'
+                'h-10 w-10 rounded-lg transition-all duration-300 shrink-0',
+                scrolled && isHome ? 'opacity-100' : 'brightness-0 invert'
               )}
             />
+            <div className={cn(
+              'leading-none transition-colors duration-300',
+              scrolled && isHome ? 'text-brand-navy' : 'text-white'
+            )}>
+              <span className="font-display font-bold text-base sm:text-lg block">Garage Door Solutions</span>
+              <span className="text-brand-amber text-[11px] font-semibold tracking-wide block">of Central Florida</span>
+            </div>
           </Link>
 
           {/* Desktop links */}
@@ -84,7 +91,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-4">
             <a
               href={PHONE_TEL}
-              className="text-brand-sky text-sm font-semibold flex items-center gap-1.5 hover:text-brand-sky/80 transition-colors"
+              className={cn('text-sm font-semibold flex items-center gap-1.5 transition-colors', scrolled && isHome ? 'text-brand-sky hover:text-brand-sky/80' : 'text-white/90 hover:text-white')}
               aria-label="Call (863) 808-3341"
             >
               <Phone size={15} aria-hidden="true" />
