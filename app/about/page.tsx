@@ -24,7 +24,7 @@ const orgSchema = {
   '@type': 'Organization',
   name: 'Garage Door Solutions of Central Florida, LLC',
   url: 'https://garagedoorsolutionsofcf.com',
-  telephone: '+18638083341',
+  telephone: '+17739851092',
   foundingDate: '2008',
   description:
     "Central Florida's trusted garage door repair, installation & emergency service company serving Polk, Orange, Osceola & Lake Counties for 15+ years.",

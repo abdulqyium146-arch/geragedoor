@@ -68,7 +68,7 @@ export function QuoteForm() {
       {status === 'error' && (
         <div className="flex items-center gap-3 bg-red-50 border border-red-200 rounded-lg p-4 text-red-700 text-sm" role="alert">
           <AlertCircle size={18} aria-hidden="true" className="shrink-0" />
-          Something went wrong. Please call us at (863) 808-3341.
+          Something went wrong. Please call us at (773) 985-1092.
         </div>
       )}
 

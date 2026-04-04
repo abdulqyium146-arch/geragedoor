@@ -23,7 +23,7 @@ export function CTABanner({
             aria-label="Call us now"
           >
             <Phone size={22} aria-hidden="true" />
-            (863) 808-3341
+            (773) 985-1092
           </a>
           <Link
             href="/contact"

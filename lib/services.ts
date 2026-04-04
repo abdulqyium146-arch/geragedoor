@@ -23,8 +23,8 @@ export const SERVICES: Service[] = [
     title: 'New Door Installation',
     shortTitle: 'New Installations',
     icon: 'Home',
-    metaTitle: 'Garage Door Installation Central Florida | (863) 808-3341',
-    metaDesc: 'New garage door installation in Central Florida. Steel, wood & composite doors from top brands. Free estimates. Same-day appointments. Call (863) 808-3341.',
+    metaTitle: 'Garage Door Installation Central Florida | (773) 985-1092',
+    metaDesc: 'New garage door installation in Central Florida. Steel, wood & composite doors from top brands. Free estimates. Same-day appointments. Call (773) 985-1092.',
     keywords: [
       'garage door installation near me',
       'garage door installation cost',
@@ -44,7 +44,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does new garage door installation cost in Central Florida?',
-        a: 'New garage door installation in Central Florida typically ranges from $800 to $3,500 depending on door size, material, and style. Single doors start around $800–$1,500 and double doors run $1,200–$3,500. We provide free, no-obligation estimates — call (863) 808-3341.',
+        a: 'New garage door installation in Central Florida typically ranges from $800 to $3,500 depending on door size, material, and style. Single doors start around $800–$1,500 and double doors run $1,200–$3,500. We provide free, no-obligation estimates — call (773) 985-1092.',
       },
       {
         q: 'How long does garage door installation take?',
@@ -69,8 +69,8 @@ export const SERVICES: Service[] = [
     title: 'Garage Door Repair',
     shortTitle: 'Door Repair',
     icon: 'Wrench',
-    metaTitle: 'Garage Door Repair Central Florida | Same-Day | (863) 808-3341',
-    metaDesc: 'Fast garage door repair in Central Florida. Broken springs, off-track doors, cable repair & more. Same-day service available. Call (863) 808-3341 for a free estimate.',
+    metaTitle: 'Garage Door Repair Central Florida | Same-Day | (773) 985-1092',
+    metaDesc: 'Fast garage door repair in Central Florida. Broken springs, off-track doors, cable repair & more. Same-day service available. Call (773) 985-1092 for a free estimate.',
     keywords: [
       'garage door repair near me',
       'garage door repair service',
@@ -94,7 +94,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does garage door repair cost near me?',
-        a: 'Garage door repair costs in Central Florida typically range from $75 to $600 depending on the issue. Minor repairs like sensor alignment or cable replacement run $75–$200. Spring replacement runs $150–$350. We provide upfront pricing — call (863) 808-3341 for a free estimate.',
+        a: 'Garage door repair costs in Central Florida typically range from $75 to $600 depending on the issue. Minor repairs like sensor alignment or cable replacement run $75–$200. Spring replacement runs $150–$350. We provide upfront pricing — call (773) 985-1092 for a free estimate.',
       },
       {
         q: 'Can I repair my garage door myself?',
@@ -106,7 +106,7 @@ export const SERVICES: Service[] = [
       },
       {
         q: 'How quickly can you repair my garage door in Central Florida?',
-        a: 'We offer same-day service for most repairs throughout Central Florida. Call (863) 808-3341 and a real person will answer and get a technician to you fast — usually within hours.',
+        a: 'We offer same-day service for most repairs throughout Central Florida. Call (773) 985-1092 and a real person will answer and get a technician to you fast — usually within hours.',
       },
       {
         q: 'What are the most common garage door problems?',
@@ -119,8 +119,8 @@ export const SERVICES: Service[] = [
     title: 'Spring Replacement',
     shortTitle: 'Spring Replacement',
     icon: 'Zap',
-    metaTitle: 'Garage Door Spring Repair Central FL | (863) 808-3341',
-    metaDesc: 'Broken garage door spring? Professional torsion & extension spring replacement in Central Florida. Same-day service. Free estimate. Call (863) 808-3341.',
+    metaTitle: 'Garage Door Spring Repair Central FL | (773) 985-1092',
+    metaDesc: 'Broken garage door spring? Professional torsion & extension spring replacement in Central Florida. Same-day service. Free estimate. Call (773) 985-1092.',
     keywords: [
       'garage spring repair',
       'garage door spring repair near me',
@@ -142,7 +142,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does garage door spring replacement cost in Central Florida?',
-        a: 'Garage door spring replacement in Central Florida typically costs $150–$350 for a single spring or $200–$500 for both springs (which we recommend replacing together). Price depends on spring type, size, and wire gauge. Call (863) 808-3341 for a free estimate.',
+        a: 'Garage door spring replacement in Central Florida typically costs $150–$350 for a single spring or $200–$500 for both springs (which we recommend replacing together). Price depends on spring type, size, and wire gauge. Call (773) 985-1092 for a free estimate.',
       },
       {
         q: 'How long do garage door springs last?',
@@ -167,8 +167,8 @@ export const SERVICES: Service[] = [
     title: 'Opener Services',
     shortTitle: 'Opener Services',
     icon: 'Radio',
-    metaTitle: 'Garage Door Opener Repair & Install Central FL | (863) 808-3341',
-    metaDesc: 'LiftMaster, Chamberlain & Genie garage door opener repair & installation in Central Florida. Same-day service. Free estimate. Call (863) 808-3341.',
+    metaTitle: 'Garage Door Opener Repair & Install Central FL | (773) 985-1092',
+    metaDesc: 'LiftMaster, Chamberlain & Genie garage door opener repair & installation in Central Florida. Same-day service. Free estimate. Call (773) 985-1092.',
     keywords: [
       'garage door opener repair',
       'garage door opener installation',
@@ -193,7 +193,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does garage door opener installation cost in Central Florida?',
-        a: 'Garage door opener installation in Central Florida typically costs $200–$600 including the unit and labor. Belt drive openers cost more than chain drive but are quieter. Smart Wi-Fi openers run $250–$600 installed. Call (863) 808-3341 for a free estimate.',
+        a: 'Garage door opener installation in Central Florida typically costs $200–$600 including the unit and labor. Belt drive openers cost more than chain drive but are quieter. Smart Wi-Fi openers run $250–$600 installed. Call (773) 985-1092 for a free estimate.',
       },
       {
         q: 'How long does garage door opener installation take?',
@@ -218,8 +218,8 @@ export const SERVICES: Service[] = [
     title: 'Emergency Service',
     shortTitle: 'Emergency Service',
     icon: 'AlertTriangle',
-    metaTitle: 'Emergency Garage Door Repair Central FL | (863) 808-3341',
-    metaDesc: 'Emergency garage door repair near me — Central Florida\'s fastest response. Door won\'t close? Spring snapped? We respond fast. Call (863) 808-3341 now.',
+    metaTitle: 'Emergency Garage Door Repair Central FL | (773) 985-1092',
+    metaDesc: 'Emergency garage door repair near me — Central Florida\'s fastest response. Door won\'t close? Spring snapped? We respond fast. Call (773) 985-1092 now.',
     keywords: [
       'emergency garage door repair near me',
       'same day garage door repair',
@@ -241,7 +241,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'Do you offer emergency garage door repair near me in Central Florida?',
-        a: 'Yes. We provide emergency garage door repair throughout Central Florida including Lakeland, Kissimmee, Orlando, Winter Haven, and surrounding areas. Call (863) 808-3341 — a real person will answer and dispatch a technician.',
+        a: 'Yes. We provide emergency garage door repair throughout Central Florida including Lakeland, Kissimmee, Orlando, Winter Haven, and surrounding areas. Call (773) 985-1092 — a real person will answer and dispatch a technician.',
       },
       {
         q: 'How fast can you respond to a garage door emergency?',
@@ -257,7 +257,7 @@ export const SERVICES: Service[] = [
       },
       {
         q: 'What should I do if my garage door will not close?',
-        a: 'If your door is stuck open, do not leave your home unattended. Try the manual release cord (red handle) to disengage the opener and manually close the door temporarily. Then call us at (863) 808-3341 for same-day repair.',
+        a: 'If your door is stuck open, do not leave your home unattended. Try the manual release cord (red handle) to disengage the opener and manually close the door temporarily. Then call us at (773) 985-1092 for same-day repair.',
       },
     ],
   },
@@ -266,8 +266,8 @@ export const SERVICES: Service[] = [
     title: 'Commercial Doors',
     shortTitle: 'Commercial Doors',
     icon: 'Building2',
-    metaTitle: 'Commercial Garage Door Repair Central FL | (863) 808-3341',
-    metaDesc: 'Commercial garage door repair, installation & maintenance in Central Florida. Sectional, roll-up & fire-rated doors. Fast response. Call (863) 808-3341.',
+    metaTitle: 'Commercial Garage Door Repair Central FL | (773) 985-1092',
+    metaDesc: 'Commercial garage door repair, installation & maintenance in Central Florida. Sectional, roll-up & fire-rated doors. Fast response. Call (773) 985-1092.',
     keywords: [
       'commercial garage door repair near me',
       'commercial overhead door repair',
@@ -307,7 +307,7 @@ export const SERVICES: Service[] = [
       },
       {
         q: 'How quickly can you respond to a commercial garage door emergency in Central Florida?',
-        a: 'We prioritize commercial calls due to business impact. We target same-day response for commercial emergencies throughout our Central Florida service area. Call (863) 808-3341 to reach a live team member immediately.',
+        a: 'We prioritize commercial calls due to business impact. We target same-day response for commercial emergencies throughout our Central Florida service area. Call (773) 985-1092 to reach a live team member immediately.',
       },
     ],
   },

@@ -6,12 +6,12 @@ import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
 import { PHONE_TEL, PHONE_DISPLAY } from '@/components/ui/PhoneLink'
 
 export const metadata: Metadata = {
-  title: 'Free Garage Door Quote | Central Florida | Call (863) 808-3341',
+  title: 'Free Garage Door Quote | Central Florida | Call (773) 985-1092',
   description:
-    'Get a free garage door estimate in Central Florida. Call (863) 808-3341 or fill out our form. We respond within 1 hour. Mon–Sat 8am–7pm.',
+    'Get a free garage door estimate in Central Florida. Call (773) 985-1092 or fill out our form. We respond within 1 hour. Mon–Sat 8am–7pm.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com/contact' },
   openGraph: {
-    title: 'Contact Us | Free Garage Door Quote | (863) 808-3341',
+    title: 'Contact Us | Free Garage Door Quote | (773) 985-1092',
     description: 'Get a free quote for garage door repair or installation in Central Florida.',
     url: 'https://garagedoorsolutionsofcf.com/contact',
     images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Contact Garage Door Solutions of Central Florida' }],
@@ -43,7 +43,7 @@ const faqSchema = {
       name: 'Do you offer emergency service?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, we offer extended-hours emergency service. Call (863) 808-3341 and you will speak with a live team member.',
+        text: 'Yes, we offer extended-hours emergency service. Call (773) 985-1092 and you will speak with a live team member.',
       },
     },
   ],
@@ -52,7 +52,7 @@ const faqSchema = {
 const faqs = [
   {
     q: 'How quickly will you respond to my request?',
-    a: 'We typically respond within 1 hour during business hours (Mon–Sat, 8am–7pm). For urgent needs, please call us directly at (863) 808-3341.',
+    a: 'We typically respond within 1 hour during business hours (Mon–Sat, 8am–7pm). For urgent needs, please call us directly at (773) 985-1092.',
   },
   {
     q: 'Is the quote really free?',

@@ -9,7 +9,7 @@ import { PhoneLink } from '@/components/ui/PhoneLink'
 import { ServiceIcon } from '@/components/ui/ServiceIcon'
 
 export const metadata: Metadata = {
-  title: 'Garage Door Services Central Florida | Fast & Reliable | (863) 808-3341',
+  title: 'Garage Door Services Central Florida | Fast & Reliable | (773) 985-1092',
   description:
     'Complete garage door services in Central Florida: new door installation, spring replacement, opener repair, emergency service. Serving Polk, Orange & Osceola Counties.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com/services' },

@@ -29,9 +29,9 @@ export function Footer() {
               <MapPin size={16} className="text-brand-amber mt-0.5 shrink-0" aria-hidden="true" />
               <span>Polk County, FL (Lakeland Area)</span>
             </div>
-            <a href="tel:+18638083341" className="flex items-center gap-2 hover:text-brand-amber transition-colors" aria-label="Call (863) 808-3341">
+            <a href="tel:+17739851092" className="flex items-center gap-2 hover:text-brand-amber transition-colors" aria-label="Call (773) 985-1092">
               <Phone size={16} className="text-brand-amber shrink-0" aria-hidden="true" />
-              (863) 808-3341
+              (773) 985-1092
             </a>
             <div className="flex items-center gap-2">
               <Clock size={16} className="text-brand-amber shrink-0" aria-hidden="true" />

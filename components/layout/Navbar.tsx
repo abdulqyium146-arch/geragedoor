@@ -94,10 +94,10 @@ export function Navbar() {
             <a
               href={PHONE_TEL}
               className={cn('text-sm font-semibold flex items-center gap-1.5 transition-colors', scrolled && isHome ? 'text-brand-sky hover:text-brand-sky/80' : 'text-white/90 hover:text-white')}
-              aria-label="Call (863) 808-3341"
+              aria-label="Call (773) 985-1092"
             >
               <Phone size={15} aria-hidden="true" />
-              (863) 808-3341
+              (773) 985-1092
             </a>
             <Link
               href="/contact"
@@ -153,7 +153,7 @@ export function Navbar() {
               aria-label="Call us now"
             >
               <Phone size={20} aria-hidden="true" />
-              Call (863) 808-3341
+              Call (773) 985-1092
             </a>
             <Link
               href="/contact"

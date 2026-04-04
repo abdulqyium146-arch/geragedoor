@@ -1,8 +1,8 @@
 import { cn } from '@/lib/utils'
 import { Phone } from 'lucide-react'
 
-export const PHONE_DISPLAY = '(863) 808-3341'
-export const PHONE_TEL = 'tel:+18638083341'
+export const PHONE_DISPLAY = '(773) 985-1092'
+export const PHONE_TEL = 'tel:+17739851092'
 
 interface Props {
   className?: string

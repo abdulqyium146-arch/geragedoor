@@ -13,7 +13,7 @@ export function getCityMetadata(citySlug: string) {
   return {
     cityName,
     title: `Garage Door Repair & Installation in ${cityName}, FL`,
-    description: `Professional garage door repair and installation in ${cityName}, FL. Same-day service available. Call (863) 808-3341.`,
+    description: `Professional garage door repair and installation in ${cityName}, FL. Same-day service available. Call (773) 985-1092.`,
     canonical: `${BASE_URL}/service-areas/${citySlug}`,
   }
 }

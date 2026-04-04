@@ -24,8 +24,8 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!city) return {}
 
   return {
-    title: `Garage Door Repair ${city.name} FL | Same-Day Service | (863) 808-3341`,
-    description: `Professional garage door repair and installation in ${city.name}, FL. Same-day service available. Serving all of ${city.name} and surrounding Central Florida areas. Call (863) 808-3341.`,
+    title: `Garage Door Repair ${city.name} FL | Same-Day Service | (773) 985-1092`,
+    description: `Professional garage door repair and installation in ${city.name}, FL. Same-day service available. Serving all of ${city.name} and surrounding Central Florida areas. Call (773) 985-1092.`,
     alternates: {
       canonical: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
     },
@@ -48,7 +48,7 @@ export default function CityPage({ params }: Props) {
     '@id': `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}#business`,
     name: `Garage Door Solutions — ${city.name}, FL`,
     url: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
-    telephone: '+18638083341',
+    telephone: '+17739851092',
     priceRange: '$$',
     description: `Expert garage door repair, installation & emergency service in ${city.name}, FL (${city.county} County).`,
     areaServed: {

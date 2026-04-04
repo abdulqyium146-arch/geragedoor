@@ -13,12 +13,12 @@ import { PHONE_TEL, PHONE_DISPLAY } from '@/components/ui/PhoneLink'
 import { StructuredData } from '@/components/seo/StructuredData'
 
 export const metadata: Metadata = {
-  title: 'Garage Door Repair & Installation Central Florida | (863) 808-3341',
+  title: 'Garage Door Repair & Installation Central Florida | (773) 985-1092',
   description:
     'Garage Door Solutions of Central Florida — serving Lakeland, Kissimmee, Orlando & all of Polk County. Same-day service. Always a real person answers. Free estimates.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com' },
   openGraph: {
-    title: 'Garage Door Solutions of Central Florida | (863) 808-3341',
+    title: 'Garage Door Solutions of Central Florida | (773) 985-1092',
     description: "Central Florida's #1 rated garage door company. Same-day service, free quotes.",
     url: 'https://garagedoorsolutionsofcf.com',
     images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Garage Door Solutions of Central Florida' }],
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'How quickly can you repair a garage door in Central Florida?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We offer same-day service for most garage door repairs in Central Florida. Call (863) 808-3341 and a real person will answer and schedule your appointment.',
+        text: 'We offer same-day service for most garage door repairs in Central Florida. Call (773) 985-1092 and a real person will answer and schedule your appointment.',
       },
     },
     {

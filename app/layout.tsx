@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: '%s | Garage Door Solutions of Central Florida',
   },
   description:
-    "Central Florida's trusted garage door company. Serving Polk, Orange, Osceola & Lake Counties. Call (863) 808-3341 for same-day service, repairs & new installations.",
+    "Central Florida's trusted garage door company. Serving Polk, Orange, Osceola & Lake Counties. Call (773) 985-1092 for same-day service, repairs & new installations.",
   keywords: [
     'garage door repair Central Florida',
     'garage door installation Lakeland FL',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: BASE_URL,
     siteName: 'Garage Door Solutions of Central Florida',
-    title: 'Garage Door Solutions of Central Florida | (863) 808-3341',
+    title: 'Garage Door Solutions of Central Florida | (773) 985-1092',
     description:
       'Serving all of Central Florida. Real people, same-day service, 15+ years experience. Licensed & Insured.',
     images: [
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Garage Door Solutions of Central Florida',
-    description: 'Serving Polk, Orange, Osceola & Lake Counties. Call (863) 808-3341.',
+    description: 'Serving Polk, Orange, Osceola & Lake Counties. Call (773) 985-1092.',
     images: ['/gallery/android-chrome-512x512.png'],
   },
   robots: {
@@ -103,7 +103,7 @@ const localBusinessSchema = {
   '@id': `${BASE_URL}/#business`,
   name: 'Garage Door Solutions of Central Florida, LLC',
   url: BASE_URL,
-  telephone: '+18638083341',
+  telephone: '+17739851092',
   email: 'info@garagedoorsolutionsofcf.com',
   priceRange: '$$',
   currenciesAccepted: 'USD',
