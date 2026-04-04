@@ -99,7 +99,7 @@ export function QuoteForm() {
             id="phone"
             type="tel"
             autoComplete="tel"
-            placeholder="(863) 555-0100"
+            placeholder="(773) 555-0100"
             aria-describedby={errors.phone ? 'phone-error' : undefined}
             aria-invalid={!!errors.phone}
             className={fieldClass(!!errors.phone)}
