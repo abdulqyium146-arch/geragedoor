@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'ADD_YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE',
+    google: 'hiY5eqE9FWZp9_NZeyiIIOZXMCqlpp41vGsSM5DtZns',
   },
 }
 
