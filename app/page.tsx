@@ -13,13 +13,13 @@ import { PHONE_TEL, PHONE_DISPLAY } from '@/components/ui/PhoneLink'
 import { StructuredData } from '@/components/seo/StructuredData'
 
 export const metadata: Metadata = {
-  title: 'Garage Door Company Central Florida | Repair, Installation & Emergency Service | (773) 985-1092',
+  title: 'Garage Door Company Central Florida | Repair, Installation & Emergency Service | (702) 935-3283',
   description:
-    'Trusted garage door company serving Central Florida — Lakeland, Kissimmee, Orlando & Polk County. Same-day repairs, new installations & emergency service. Free estimates. Call (773) 985-1092.',
+    'Trusted garage door company serving Central Florida — Lakeland, Kissimmee, Orlando & Polk County. Same-day repairs, new installations & emergency service. Free estimates. Call (702) 935-3283.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com' },
   openGraph: {
-    title: '#1 Garage Door Company Central Florida | (773) 985-1092',
-    description: "Central Florida's trusted garage door company. Same-day repairs, emergency service & new installations. Free quotes. Call (773) 985-1092.",
+    title: '#1 Garage Door Company Central Florida | (702) 935-3283',
+    description: "Central Florida's trusted garage door company. Same-day repairs, emergency service & new installations. Free quotes. Call (702) 935-3283.",
     url: 'https://garagedoorsolutionsofcf.com',
     images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Garage Door Solutions of Central Florida' }],
   },
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'Do you offer emergency garage door repair near me in Central Florida?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. We provide emergency garage door repair throughout Central Florida — Orlando, Kissimmee, Lakeland, Winter Haven, and all surrounding areas. Call (773) 985-1092 now — a real person answers every call and will dispatch a technician fast.',
+        text: 'Yes. We provide emergency garage door repair throughout Central Florida — Orlando, Kissimmee, Lakeland, Winter Haven, and all surrounding areas. Call (702) 935-3283 now — a real person answers every call and will dispatch a technician fast.',
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'How quickly can you repair a garage door in Central Florida?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We offer same-day service for most garage door repairs in Central Florida. Call (773) 985-1092 and a real person will answer and schedule your appointment.',
+        text: 'We offer same-day service for most garage door repairs in Central Florida. Call (702) 935-3283 and a real person will answer and schedule your appointment.',
       },
     },
     {

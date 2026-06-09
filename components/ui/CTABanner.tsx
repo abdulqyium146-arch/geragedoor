@@ -23,7 +23,7 @@ export function CTABanner({
             aria-label="Call us now"
           >
             <Phone size={22} aria-hidden="true" />
-            (773) 985-1092
+            (702) 935-3283
           </a>
           <Link
             href="/contact"

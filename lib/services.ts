@@ -23,8 +23,8 @@ export const SERVICES: Service[] = [
     title: 'New Door Installation',
     shortTitle: 'New Installations',
     icon: 'Home',
-    metaTitle: 'Garage Door Installation Near Me | Central Florida | (773) 985-1092',
-    metaDesc: 'New garage door installation near you in Central Florida. Steel, wood & composite doors from top brands. Free estimates, same-day appointments. Call (773) 985-1092.',
+    metaTitle: 'Garage Door Installation Near Me | Central Florida | (702) 935-3283',
+    metaDesc: 'New garage door installation near you in Central Florida. Steel, wood & composite doors from top brands. Free estimates, same-day appointments. Call (702) 935-3283.',
     keywords: [
       'garage door installation near me',
       'garage door installation cost',
@@ -46,7 +46,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does new garage door installation cost in Central Florida?',
-        a: 'New garage door installation in Central Florida typically ranges from $800 to $3,500 depending on door size, material, and style. Single doors start around $800–$1,500 and double doors run $1,200–$3,500. We provide free, no-obligation estimates — call (773) 985-1092.',
+        a: 'New garage door installation in Central Florida typically ranges from $800 to $3,500 depending on door size, material, and style. Single doors start around $800–$1,500 and double doors run $1,200–$3,500. We provide free, no-obligation estimates — call (702) 935-3283.',
       },
       {
         q: 'How long does garage door installation take?',
@@ -71,8 +71,8 @@ export const SERVICES: Service[] = [
     title: 'Garage Door Repair',
     shortTitle: 'Door Repair',
     icon: 'Wrench',
-    metaTitle: 'Garage Door Repair Near Me | Central Florida | (773) 985-1092',
-    metaDesc: 'Expert garage door repair near you in Central Florida. Broken springs, off-track doors, cables & more — fixed same-day. Free estimates. Call (773) 985-1092.',
+    metaTitle: 'Garage Door Repair Near Me | Central Florida | (702) 935-3283',
+    metaDesc: 'Expert garage door repair near you in Central Florida. Broken springs, off-track doors, cables & more — fixed same-day. Free estimates. Call (702) 935-3283.',
     keywords: [
       'garage door repair near me',
       'garage door repair service',
@@ -99,7 +99,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does garage door repair cost near me?',
-        a: 'Garage door repair costs in Central Florida typically range from $75 to $600 depending on the issue. Minor repairs like sensor alignment or cable replacement run $75–$200. Spring replacement runs $150–$350. We provide upfront pricing — call (773) 985-1092 for a free estimate.',
+        a: 'Garage door repair costs in Central Florida typically range from $75 to $600 depending on the issue. Minor repairs like sensor alignment or cable replacement run $75–$200. Spring replacement runs $150–$350. We provide upfront pricing — call (702) 935-3283 for a free estimate.',
       },
       {
         q: 'Can I repair my garage door myself?',
@@ -111,7 +111,7 @@ export const SERVICES: Service[] = [
       },
       {
         q: 'How quickly can you repair my garage door in Central Florida?',
-        a: 'We offer same-day service for most repairs throughout Central Florida. Call (773) 985-1092 and a real person will answer and get a technician to you fast — usually within hours.',
+        a: 'We offer same-day service for most repairs throughout Central Florida. Call (702) 935-3283 and a real person will answer and get a technician to you fast — usually within hours.',
       },
       {
         q: 'What are the most common garage door problems?',
@@ -124,8 +124,8 @@ export const SERVICES: Service[] = [
     title: 'Spring Replacement',
     shortTitle: 'Spring Replacement',
     icon: 'Zap',
-    metaTitle: 'Garage Door Spring Repair Central FL | (773) 985-1092',
-    metaDesc: 'Broken garage door spring? Professional torsion & extension spring replacement in Central Florida. Same-day service. Free estimate. Call (773) 985-1092.',
+    metaTitle: 'Garage Door Spring Repair Central FL | (702) 935-3283',
+    metaDesc: 'Broken garage door spring? Professional torsion & extension spring replacement in Central Florida. Same-day service. Free estimate. Call (702) 935-3283.',
     keywords: [
       'garage spring repair',
       'garage door spring repair near me',
@@ -147,7 +147,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does garage door spring replacement cost in Central Florida?',
-        a: 'Garage door spring replacement in Central Florida typically costs $150–$350 for a single spring or $200–$500 for both springs (which we recommend replacing together). Price depends on spring type, size, and wire gauge. Call (773) 985-1092 for a free estimate.',
+        a: 'Garage door spring replacement in Central Florida typically costs $150–$350 for a single spring or $200–$500 for both springs (which we recommend replacing together). Price depends on spring type, size, and wire gauge. Call (702) 935-3283 for a free estimate.',
       },
       {
         q: 'How long do garage door springs last?',
@@ -172,8 +172,8 @@ export const SERVICES: Service[] = [
     title: 'Opener Services',
     shortTitle: 'Opener Services',
     icon: 'Radio',
-    metaTitle: 'Garage Door Opener Installation & Repair Near Me | (773) 985-1092',
-    metaDesc: 'LiftMaster, Chamberlain & Genie garage door opener repair & installation near you in Central Florida. Same-day service. Free estimate. Call (773) 985-1092.',
+    metaTitle: 'Garage Door Opener Installation & Repair Near Me | (702) 935-3283',
+    metaDesc: 'LiftMaster, Chamberlain & Genie garage door opener repair & installation near you in Central Florida. Same-day service. Free estimate. Call (702) 935-3283.',
     keywords: [
       'garage door opener near me',
       'garage door opener repair',
@@ -201,7 +201,7 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'How much does garage door opener installation cost in Central Florida?',
-        a: 'Garage door opener installation in Central Florida typically costs $200–$600 including the unit and labor. Belt drive openers cost more than chain drive but are quieter. Smart Wi-Fi openers run $250–$600 installed. Call (773) 985-1092 for a free estimate.',
+        a: 'Garage door opener installation in Central Florida typically costs $200–$600 including the unit and labor. Belt drive openers cost more than chain drive but are quieter. Smart Wi-Fi openers run $250–$600 installed. Call (702) 935-3283 for a free estimate.',
       },
       {
         q: 'How long does garage door opener installation take?',
@@ -226,8 +226,8 @@ export const SERVICES: Service[] = [
     title: 'Emergency Service',
     shortTitle: 'Emergency Service',
     icon: 'AlertTriangle',
-    metaTitle: 'Emergency Garage Door Repair Near Me | Central Florida | (773) 985-1092',
-    metaDesc: 'Emergency garage door repair in Central Florida — door stuck open, spring snapped, car trapped? Call (773) 985-1092 now. Real person answers. Fast response. No hidden surcharges.',
+    metaTitle: 'Emergency Garage Door Repair Near Me | Central Florida | (702) 935-3283',
+    metaDesc: 'Emergency garage door repair in Central Florida — door stuck open, spring snapped, car trapped? Call (702) 935-3283 now. Real person answers. Fast response. No hidden surcharges.',
     keywords: [
       'emergency garage door repair',
       'emergency garage door repair near me',
@@ -244,7 +244,7 @@ export const SERVICES: Service[] = [
       'after hours garage door service',
     ],
     description: "Garage door emergencies don't wait for business hours — and neither do we. Call now and a real person answers every time.",
-    longDescription: 'Garage door emergencies don\'t wait for business hours — and neither do we. Whether your door is stuck open leaving your home unsecured, a broken spring has your car trapped inside, or a failed opener has you locked out, our team dispatches fast across all of Central Florida. We serve Orlando, Kissimmee, Lakeland, Winter Haven, Altamonte Springs, Winter Garden, Lake Nona, Plant City, and every city in Polk, Orange, Osceola, and Lake Counties. Call (773) 985-1092 any time you need emergency garage door repair — you will always speak with a live team member, never an automated system or voicemail. We carry fully stocked trucks so most emergency repairs are completed in one visit. Same fair pricing as standard calls — no hidden emergency surcharges ever.',
+    longDescription: 'Garage door emergencies don\'t wait for business hours — and neither do we. Whether your door is stuck open leaving your home unsecured, a broken spring has your car trapped inside, or a failed opener has you locked out, our team dispatches fast across all of Central Florida. We serve Orlando, Kissimmee, Lakeland, Winter Haven, Altamonte Springs, Winter Garden, Lake Nona, Plant City, and every city in Polk, Orange, Osceola, and Lake Counties. Call (702) 935-3283 any time you need emergency garage door repair — you will always speak with a live team member, never an automated system or voicemail. We carry fully stocked trucks so most emergency repairs are completed in one visit. Same fair pricing as standard calls — no hidden emergency surcharges ever.',
     benefits: [
       'Real person answers every call — no automated systems or voicemail',
       'Fast dispatch across Orlando, Kissimmee, Lakeland & all of Central Florida',
@@ -254,11 +254,11 @@ export const SERVICES: Service[] = [
     faqs: [
       {
         q: 'Do you offer emergency garage door repair near me in Central Florida?',
-        a: 'Yes. We provide emergency garage door repair throughout Central Florida — Orlando, Kissimmee, Lakeland, Winter Haven, Altamonte Springs, Lake Nona, Winter Garden, and all surrounding areas. Call (773) 985-1092 and a real person will answer and dispatch a technician.',
+        a: 'Yes. We provide emergency garage door repair throughout Central Florida — Orlando, Kissimmee, Lakeland, Winter Haven, Altamonte Springs, Lake Nona, Winter Garden, and all surrounding areas. Call (702) 935-3283 and a real person will answer and dispatch a technician.',
       },
       {
         q: 'Do you offer emergency garage door repair in Orlando and Kissimmee?',
-        a: 'Yes. We serve Orlando and the entire metro area including Kissimmee, Winter Park, Altamonte Springs, Lake Nona, Winter Garden, Clermont, and Sanford. Call (773) 985-1092 for fast emergency dispatch anywhere in Central Florida.',
+        a: 'Yes. We serve Orlando and the entire metro area including Kissimmee, Winter Park, Altamonte Springs, Lake Nona, Winter Garden, Clermont, and Sanford. Call (702) 935-3283 for fast emergency dispatch anywhere in Central Florida.',
       },
       {
         q: 'How fast can you respond to a garage door emergency?',
@@ -270,7 +270,7 @@ export const SERVICES: Service[] = [
       },
       {
         q: 'What should I do if my garage door is stuck open or won\'t close?',
-        a: 'If your door is stuck open, do not leave your home unattended. Try pulling the manual release cord (red handle) to disengage the opener and manually lower the door as a temporary measure. Then call (773) 985-1092 immediately for same-day emergency garage door repair anywhere in Central Florida.',
+        a: 'If your door is stuck open, do not leave your home unattended. Try pulling the manual release cord (red handle) to disengage the opener and manually lower the door as a temporary measure. Then call (702) 935-3283 immediately for same-day emergency garage door repair anywhere in Central Florida.',
       },
     ],
   },
@@ -279,8 +279,8 @@ export const SERVICES: Service[] = [
     title: 'Commercial Doors',
     shortTitle: 'Commercial Doors',
     icon: 'Building2',
-    metaTitle: 'Commercial Garage Door Repair Central FL | (773) 985-1092',
-    metaDesc: 'Commercial garage door repair, installation & maintenance in Central Florida. Sectional, roll-up & fire-rated doors. Fast response. Call (773) 985-1092.',
+    metaTitle: 'Commercial Garage Door Repair Central FL | (702) 935-3283',
+    metaDesc: 'Commercial garage door repair, installation & maintenance in Central Florida. Sectional, roll-up & fire-rated doors. Fast response. Call (702) 935-3283.',
     keywords: [
       'commercial garage door repair near me',
       'commercial overhead door repair',
@@ -320,7 +320,7 @@ export const SERVICES: Service[] = [
       },
       {
         q: 'How quickly can you respond to a commercial garage door emergency in Central Florida?',
-        a: 'We prioritize commercial calls due to business impact. We target same-day response for commercial emergencies throughout our Central Florida service area. Call (773) 985-1092 to reach a live team member immediately.',
+        a: 'We prioritize commercial calls due to business impact. We target same-day response for commercial emergencies throughout our Central Florida service area. Call (702) 935-3283 to reach a live team member immediately.',
       },
     ],
   },

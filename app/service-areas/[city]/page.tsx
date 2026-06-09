@@ -24,8 +24,8 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!city) return {}
 
   return {
-    title: `Garage Door Repair ${city.name} FL | Emergency Service Available | (773) 985-1092`,
-    description: `Fast garage door repair, installation & emergency service in ${city.name}, FL. Same-day appointments available. Local team, honest pricing, real people answer. Call (773) 985-1092 for a free estimate.`,
+    title: `Garage Door Repair ${city.name} FL | Emergency Service Available | (702) 935-3283`,
+    description: `Fast garage door repair, installation & emergency service in ${city.name}, FL. Same-day appointments available. Local team, honest pricing, real people answer. Call (702) 935-3283 for a free estimate.`,
     alternates: {
       canonical: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
     },
@@ -48,7 +48,7 @@ export default function CityPage({ params }: Props) {
     '@id': `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}#business`,
     name: `Garage Door Solutions — ${city.name}, FL`,
     url: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
-    telephone: '+17739851092',
+    telephone: '+17029353283',
     priceRange: '$$',
     description: `Expert garage door repair, installation & emergency service in ${city.name}, FL (${city.county} County).`,
     areaServed: {

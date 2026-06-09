@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: '%s | Garage Door Solutions of Central Florida',
   },
   description:
-    "Central Florida's trusted garage door company. Emergency repairs, new installations & opener service. Serving Polk, Orange, Osceola & Lake Counties. Call (773) 985-1092 for same-day service.",
+    "Central Florida's trusted garage door company. Emergency repairs, new installations & opener service. Serving Polk, Orange, Osceola & Lake Counties. Call (702) 935-3283 for same-day service.",
   keywords: [
     'garage door company',
     'garage door company near me',
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: BASE_URL,
     siteName: 'Garage Door Solutions of Central Florida',
-    title: 'Garage Door Solutions of Central Florida | (773) 985-1092',
+    title: 'Garage Door Solutions of Central Florida | (702) 935-3283',
     description:
       'Serving all of Central Florida. Real people, same-day service, 15+ years experience. Licensed & Insured.',
     images: [
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Garage Door Solutions of Central Florida',
-    description: 'Serving Polk, Orange, Osceola & Lake Counties. Call (773) 985-1092.',
+    description: 'Serving Polk, Orange, Osceola & Lake Counties. Call (702) 935-3283.',
     images: ['/gallery/android-chrome-512x512.png'],
   },
   robots: {
@@ -109,7 +109,7 @@ const localBusinessSchema = {
   '@id': `${BASE_URL}/#business`,
   name: 'Garage Door Solutions of Central Florida, LLC',
   url: BASE_URL,
-  telephone: '+17739851092',
+  telephone: '+17029353283',
   email: 'info@garagedoorsolutionsofcf.com',
   priceRange: '$$',
   currenciesAccepted: 'USD',

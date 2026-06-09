@@ -63,7 +63,7 @@ export default function ServicePage({ params }: Props) {
     provider: {
       '@type': 'LocalBusiness',
       name: 'Garage Door Solutions of Central Florida',
-      telephone: '+17739851092',
+      telephone: '+17029353283',
       url: BASE_URL,
       address: {
         '@type': 'PostalAddress',
