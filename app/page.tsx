@@ -215,7 +215,7 @@ export default function HomePage() {
             eyebrow="What We Do"
             id="services-heading"
             heading="Complete Garage Door Services"
-            subtext="From emergency repairs to full new door installations, we handle every garage door need for Central Florida homeowners and businesses."
+            subtext={<>From <Link href="/services/emergency-service" className="text-brand-sky hover:underline font-semibold">emergency repairs</Link> and <Link href="/services/spring-replacement" className="text-brand-sky hover:underline font-semibold">spring replacement</Link> to <Link href="/services/new-door-installation" className="text-brand-sky hover:underline font-semibold">full new door installations</Link> — we handle every garage door need for Central Florida homeowners and businesses.</>}
           />
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12" role="list">
             {SERVICES.map(service => (

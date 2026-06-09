@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Shield, Star, Users, Award, CheckCircle, Phone } from 'lucide-react'
+import { Shield, Star, Users, Award, CheckCircle, Phone, ChevronRight, MapPin } from 'lucide-react'
+import { SERVICES } from '@/lib/services'
+import { CITIES } from '@/lib/cities'
 import { CTABanner } from '@/components/ui/CTABanner'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
@@ -181,6 +183,54 @@ export default function AboutPage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* Services & Cities internal linking */}
+      <section className="py-16 px-4 bg-brand-cream border-t border-gray-100" aria-labelledby="about-links-heading">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
+          <div>
+            <div className="flex items-center gap-2 mb-5">
+              <ChevronRight size={20} className="text-brand-amber" aria-hidden="true" />
+              <h2 id="about-links-heading" className="font-display text-xl font-bold text-brand-slate">Our Garage Door Services</h2>
+            </div>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3" role="list">
+              {SERVICES.map(s => (
+                <li key={s.slug}>
+                  <Link
+                    href={`/services/${s.slug}`}
+                    className="flex items-center gap-2 text-brand-sky text-sm font-semibold hover:underline"
+                  >
+                    <ChevronRight size={13} aria-hidden="true" />
+                    {s.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <div className="flex items-center gap-2 mb-5">
+              <MapPin size={20} className="text-brand-amber" aria-hidden="true" />
+              <h2 className="font-display text-xl font-bold text-brand-slate">Cities We Serve</h2>
+            </div>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-y-2 gap-x-4" role="list">
+              {CITIES.map(city => (
+                <li key={city.slug}>
+                  <Link
+                    href={`/service-areas/${city.slug}`}
+                    className="text-brand-sky text-sm font-semibold hover:underline"
+                  >
+                    {city.name}, FL
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-5">
+              <Link href="/service-areas" className="inline-flex items-center gap-1 text-brand-sky text-sm font-bold hover:underline">
+                View all service areas <ChevronRight size={13} aria-hidden="true" />
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

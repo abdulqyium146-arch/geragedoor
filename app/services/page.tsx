@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CheckCircle, ChevronRight, MapPin } from 'lucide-react'
 import { SERVICES } from '@/lib/services'
+import { CITIES } from '@/lib/cities'
 import { CTABanner } from '@/components/ui/CTABanner'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
@@ -38,11 +39,6 @@ const crumbs = [
   { label: 'Services', href: '/services' },
 ]
 
-const featuredServiceCities = [
-  { slug: 'lakeland',    name: 'Lakeland' },
-  { slug: 'kissimmee',   name: 'Kissimmee' },
-  { slug: 'orlando',     name: 'Orlando' },
-]
 
 export default function ServicesPage() {
   return (
@@ -139,7 +135,7 @@ export default function ServicesPage() {
             .
           </p>
           <ul className="flex flex-wrap gap-3" role="list">
-            {featuredServiceCities.map(city => (
+            {CITIES.map(city => (
               <li key={city.slug}>
                 <Link
                   href={`/service-areas/${city.slug}`}
@@ -151,15 +147,6 @@ export default function ServicesPage() {
                 </Link>
               </li>
             ))}
-            <li>
-              <Link
-                href="/service-areas"
-                className="inline-flex items-center gap-1.5 bg-brand-sky text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-brand-blue transition-colors"
-              >
-                All Service Areas
-                <ChevronRight size={14} aria-hidden="true" />
-              </Link>
-            </li>
           </ul>
         </div>
       </section>

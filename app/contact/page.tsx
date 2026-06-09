@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
-import { Phone, MapPin, Clock } from 'lucide-react'
+import Link from 'next/link'
+import { Phone, MapPin, Clock, ChevronRight } from 'lucide-react'
+import { SERVICES } from '@/lib/services'
 import { QuoteForm } from '@/components/forms/QuoteForm'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { BreadcrumbNav } from '@/components/seo/BreadcrumbNav'
@@ -148,6 +150,24 @@ export default function ContactPage() {
                   </div>
                 </div>
               </address>
+            </div>
+
+            {/* Service quick links */}
+            <div className="bg-brand-cream rounded-2xl p-6">
+              <h3 className="font-display text-lg font-bold text-brand-slate mb-4">Our Services</h3>
+              <ul className="space-y-2" role="list">
+                {SERVICES.map(s => (
+                  <li key={s.slug}>
+                    <Link
+                      href={`/services/${s.slug}`}
+                      className="flex items-center gap-1.5 text-brand-sky text-sm font-semibold hover:underline"
+                    >
+                      <ChevronRight size={12} aria-hidden="true" />
+                      {s.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
 
             {/* Badges */}

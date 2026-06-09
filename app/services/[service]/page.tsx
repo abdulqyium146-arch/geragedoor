@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Phone, CheckCircle, ChevronRight, MapPin } from 'lucide-react'
 import { SERVICES, getServiceBySlug } from '@/lib/services'
+import { CITIES } from '@/lib/cities'
 import { ServiceIcon } from '@/components/ui/ServiceIcon'
 import { CTABanner } from '@/components/ui/CTABanner'
 import { StructuredData } from '@/components/seo/StructuredData'
@@ -282,7 +283,7 @@ export default function ServicePage({ params }: Props) {
             Find your city below.
           </p>
           <ul className="flex flex-wrap gap-3" role="list">
-            {featuredCities.map(city => (
+            {CITIES.map(city => (
               <li key={city.slug}>
                 <Link
                   href={`/service-areas/${city.slug}`}
@@ -294,15 +295,6 @@ export default function ServicePage({ params }: Props) {
                 </Link>
               </li>
             ))}
-            <li>
-              <Link
-                href="/service-areas"
-                className="inline-flex items-center gap-1.5 bg-brand-sky text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-brand-blue transition-colors"
-              >
-                All Service Areas
-                <ChevronRight size={14} aria-hidden="true" />
-              </Link>
-            </li>
           </ul>
         </div>
       </section>
