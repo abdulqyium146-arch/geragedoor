@@ -10,8 +10,8 @@ const NAV_LINKS = [
   { href: '/',              label: 'Home' },
   { href: '/services',      label: 'Services' },
   { href: '/service-areas', label: 'Service Areas' },
+  { href: '/faq',           label: 'FAQ' },
   { href: '/about',         label: 'About' },
-  { href: '/#reviews',      label: 'Reviews' },
 ]
 
 export function Navbar() {

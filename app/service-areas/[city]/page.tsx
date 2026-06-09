@@ -24,8 +24,8 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!city) return {}
 
   return {
-    title: `Garage Door Repair ${city.name} FL | Emergency Service Available | (702) 935-3283`,
-    description: `Fast garage door repair, installation & emergency service in ${city.name}, FL. Same-day appointments available. Local team, honest pricing, real people answer. Call (702) 935-3283 for a free estimate.`,
+    title: `Garage Door Repair ${city.name} FL | 24/7 Emergency Service | (702) 935-3283`,
+    description: `Garage door repair, installation & 24/7 emergency service in ${city.name}, FL (${city.zipCodes.slice(0,3).join(', ')}). Serving ${city.neighborhoods.slice(0,3).join(', ')} & all of ${city.county} County. Free estimates — call (702) 935-3283.`,
     alternates: {
       canonical: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
     },
@@ -41,6 +41,39 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function CityPage({ params }: Props) {
   const city = getCityBySlug(params.city)
   if (!city) notFound()
+
+  const cityFaqs = [
+    {
+      q: `How much does garage door repair cost in ${city.name}, FL?`,
+      a: `Garage door repair in ${city.name} typically ranges from $75 to $600 depending on the issue. Sensor alignment and minor cable work run $75–$200; spring replacement runs $150–$350; panel or off-track repairs vary by scope. Call (702) 935-3283 for a free, upfront estimate — no surprises.`,
+    },
+    {
+      q: `Do you offer 24/7 emergency garage door repair in ${city.name}?`,
+      a: `Yes. We are available 24/7 for emergency garage door repair throughout ${city.name} and all of ${city.county} County. Call (702) 935-3283 any time — a real person will always answer and dispatch a technician to you.`,
+    },
+    {
+      q: `What neighborhoods in ${city.name} do you serve?`,
+      a: `We serve all of ${city.name} including ${city.neighborhoods.join(', ')} and all surrounding areas in ${city.county} County, FL (ZIP codes: ${city.zipCodes.join(', ')}).`,
+    },
+    {
+      q: `How quickly can a technician arrive in ${city.name}, ${city.county} County?`,
+      a: `We aim to arrive within 1–3 hours for most service calls in ${city.name}. For emergencies, we prioritize fast dispatch — available 24/7. Call (702) 935-3283 for an honest ETA.`,
+    },
+    {
+      q: `Do you install new garage doors in ${city.name}, FL?`,
+      a: `Yes. We install new residential and commercial garage doors throughout ${city.name}, ${city.county} County. We carry steel, wood, aluminum, and composite options with same-day and next-day appointments available. Call (702) 935-3283 for a free estimate.`,
+    },
+  ]
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: cityFaqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: { '@type': 'Answer', text: faq.a },
+    })),
+  }
 
   const localBusinessSchema = {
     '@context': 'https://schema.org',
@@ -93,6 +126,7 @@ export default function CityPage({ params }: Props) {
   return (
     <>
       <StructuredData schema={localBusinessSchema} />
+      <StructuredData schema={faqSchema} />
       <BreadcrumbNav crumbs={crumbs} />
 
       {/* Page header */}
@@ -303,12 +337,66 @@ export default function CityPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Neighborhoods We Serve */}
+      <section className="py-16 px-4 bg-white" aria-labelledby="neighborhoods-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center gap-2 mb-4">
+            <MapPin size={18} className="text-brand-amber" aria-hidden="true" />
+            <h2 id="neighborhoods-heading" className="font-display text-2xl font-bold text-brand-slate">
+              Neighborhoods &amp; Areas We Serve in {city.name}
+            </h2>
+          </div>
+          <p className="text-brand-steel text-sm mb-6 max-w-3xl">
+            {city.description} We cover ZIP codes {city.zipCodes.join(', ')} and respond to all neighborhoods throughout {city.county} County, FL.
+          </p>
+          <ul className="flex flex-wrap gap-3 mb-6" role="list">
+            {city.neighborhoods.map(n => (
+              <li key={n} className="bg-brand-cream border border-gray-100 text-brand-steel text-sm font-semibold px-4 py-2 rounded-lg">
+                {n}
+              </li>
+            ))}
+          </ul>
+          <p className="text-brand-steel text-sm">
+            Don&apos;t see your neighborhood?{' '}
+            <a href={PHONE_TEL} className="text-brand-sky font-semibold hover:underline">
+              Call (702) 935-3283
+            </a>
+            {' '}— we likely serve your area.
+          </p>
+        </div>
+      </section>
+
+      {/* City-specific FAQ */}
+      <section className="py-16 px-4 bg-brand-cream" aria-labelledby="city-faq-heading">
+        <div className="max-w-3xl mx-auto">
+          <h2 id="city-faq-heading" className="font-display text-3xl font-bold text-brand-slate mb-2 text-center">
+            Garage Door FAQ — {city.name}, FL
+          </h2>
+          <p className="text-brand-steel text-center text-sm mb-10">
+            Common questions from {city.name} homeowners and businesses.
+          </p>
+          <dl className="space-y-4">
+            {cityFaqs.map((faq, i) => (
+              <div key={i} className="bg-white rounded-xl border border-gray-100 shadow-card p-6">
+                <dt className="font-display text-lg font-bold text-brand-slate mb-3">{faq.q}</dt>
+                <dd className="text-brand-steel leading-relaxed text-sm">{faq.a}</dd>
+              </div>
+            ))}
+          </dl>
+          <div className="mt-8 text-center">
+            <Link href="/faq" className="inline-flex items-center gap-1 text-brand-sky font-semibold hover:underline text-sm">
+              View all FAQs <ChevronRight size={14} aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Nearby cities — internal linking */}
       <NearbyCities currentCity={city.slug} />
 
       <CTABanner
         heading={`Need Garage Door Help in ${city.name}?`}
-        subtext="Call us or request a free quote online — same-day service available."
+        subtext="Call us or request a free quote online — available 24/7."
       />
     </>
   )
