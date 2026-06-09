@@ -24,8 +24,8 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!city) return {}
 
   return {
-    title: `Garage Door Repair ${city.name} FL | Same-Day Service | (773) 985-1092`,
-    description: `Professional garage door repair and installation in ${city.name}, FL. Same-day service available. Serving all of ${city.name} and surrounding Central Florida areas. Call (773) 985-1092.`,
+    title: `Garage Door Repair ${city.name} FL | Emergency Service Available | (773) 985-1092`,
+    description: `Fast garage door repair, installation & emergency service in ${city.name}, FL. Same-day appointments available. Local team, honest pricing, real people answer. Call (773) 985-1092 for a free estimate.`,
     alternates: {
       canonical: `https://garagedoorsolutionsofcf.com/service-areas/${city.slug}`,
     },
@@ -180,6 +180,70 @@ export default function CityPage({ params }: Props) {
               View all our garage door services
               <ChevronRight size={16} aria-hidden="true" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency garage door repair in this city */}
+      <section className="py-16 px-4 bg-brand-navy" aria-labelledby="emergency-heading">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <p className="text-brand-amber text-sm font-semibold uppercase tracking-wide mb-3">
+              Available Now
+            </p>
+            <h2
+              id="emergency-heading"
+              className="font-display text-3xl sm:text-4xl font-bold text-white mb-4"
+            >
+              Emergency Garage Door Repair in {city.name}
+            </h2>
+            <p className="text-slate-300 text-lg leading-relaxed mb-6">
+              Door stuck open? Spring snapped? Car trapped inside? Our team provides emergency garage door repair throughout {city.name} and all of {city.county} County. Call now — a real person answers every time.
+            </p>
+            <ul className="space-y-3 mb-8" role="list">
+              {[
+                `Fast dispatch throughout ${city.name}`,
+                'Real person answers — no voicemail, no automated systems',
+                'Fully stocked trucks — most repairs done in one visit',
+                'Same fair pricing — no hidden emergency fees',
+              ].map(point => (
+                <li key={point} className="flex items-start gap-3">
+                  <CheckCircle size={18} className="text-brand-amber mt-0.5 shrink-0" aria-hidden="true" />
+                  <span className="text-slate-300 text-sm">{point}</span>
+                </li>
+              ))}
+            </ul>
+            <a
+              href={PHONE_TEL}
+              className="inline-flex items-center justify-center gap-2 bg-brand-amber text-brand-navy font-bold px-8 py-4 rounded-xl shadow-cta hover:bg-brand-amberHover transition-colors min-h-[56px]"
+              aria-label={`Call for emergency garage door repair in ${city.name}`}
+            >
+              <Phone size={18} aria-hidden="true" />
+              Call {PHONE_DISPLAY} — We Answer
+            </a>
+          </div>
+          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8">
+            <h3 className="font-display text-xl font-bold text-white mb-4">Common Emergency Repairs</h3>
+            <ul className="space-y-3" role="list">
+              {[
+                'Broken torsion or extension spring',
+                'Door stuck open — home unsecured',
+                'Snapped or frayed cable',
+                'Door off track or jammed',
+                'Opener failure — car trapped inside',
+                'Bent panels causing safety risk',
+              ].map(item => (
+                <li key={item} className="flex items-center gap-3 text-slate-300 text-sm">
+                  <div className="w-1.5 h-1.5 rounded-full bg-brand-amber shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <div className="mt-6 pt-6 border-t border-white/20">
+              <p className="text-slate-400 text-xs">
+                Serving all of {city.name} and {city.county} County, FL
+              </p>
+            </div>
           </div>
         </div>
       </section>

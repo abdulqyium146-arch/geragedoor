@@ -13,13 +13,13 @@ import { PHONE_TEL, PHONE_DISPLAY } from '@/components/ui/PhoneLink'
 import { StructuredData } from '@/components/seo/StructuredData'
 
 export const metadata: Metadata = {
-  title: 'Garage Door Repair & Installation Central Florida | (773) 985-1092',
+  title: 'Garage Door Company Central Florida | Repair, Installation & Emergency Service | (773) 985-1092',
   description:
-    'Garage Door Solutions of Central Florida — serving Lakeland, Kissimmee, Orlando & all of Polk County. Same-day service. Always a real person answers. Free estimates.',
+    'Trusted garage door company serving Central Florida — Lakeland, Kissimmee, Orlando & Polk County. Same-day repairs, new installations & emergency service. Free estimates. Call (773) 985-1092.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com' },
   openGraph: {
-    title: 'Garage Door Solutions of Central Florida | (773) 985-1092',
-    description: "Central Florida's #1 rated garage door company. Same-day service, free quotes.",
+    title: '#1 Garage Door Company Central Florida | (773) 985-1092',
+    description: "Central Florida's trusted garage door company. Same-day repairs, emergency service & new installations. Free quotes. Call (773) 985-1092.",
     url: 'https://garagedoorsolutionsofcf.com',
     images: [{ url: '/gallery/android-chrome-512x512.png', width: 512, height: 512, alt: 'Garage Door Solutions of Central Florida' }],
   },
@@ -29,6 +29,14 @@ const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Do you offer emergency garage door repair near me in Central Florida?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. We provide emergency garage door repair throughout Central Florida — Orlando, Kissimmee, Lakeland, Winter Haven, and all surrounding areas. Call (773) 985-1092 now — a real person answers every call and will dispatch a technician fast.',
+      },
+    },
     {
       '@type': 'Question',
       name: 'How quickly can you repair a garage door in Central Florida?',
@@ -139,11 +147,11 @@ export default function HomePage() {
             >
               Central Florida&apos;s<br />
               Trusted <span className="text-brand-amber">Garage Door</span><br />
-              Team
+              Company
             </h1>
             <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-lg">
               Serving Polk, Orange, Osceola &amp; Lake Counties for 15+ years.
-              Same-day service available — most repairs completed in one visit.
+              Same-day repairs, new installations &amp; emergency service — most jobs completed in a single visit.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

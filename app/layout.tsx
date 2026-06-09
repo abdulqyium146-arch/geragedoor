@@ -28,8 +28,14 @@ export const metadata: Metadata = {
     template: '%s | Garage Door Solutions of Central Florida',
   },
   description:
-    "Central Florida's trusted garage door company. Serving Polk, Orange, Osceola & Lake Counties. Call (773) 985-1092 for same-day service, repairs & new installations.",
+    "Central Florida's trusted garage door company. Emergency repairs, new installations & opener service. Serving Polk, Orange, Osceola & Lake Counties. Call (773) 985-1092 for same-day service.",
   keywords: [
+    'garage door company',
+    'garage door company near me',
+    'garage door repair near me',
+    'emergency garage door repair',
+    'emergency garage door repair near me',
+    'garage door installation near me',
     'garage door repair Central Florida',
     'garage door installation Lakeland FL',
     'garage door company Polk County',
