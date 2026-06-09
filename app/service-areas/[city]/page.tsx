@@ -70,9 +70,9 @@ export default function CityPage({ params }: Props) {
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        opens: '08:00',
-        closes: '19:00',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
       },
     ],
     aggregateRating: {
@@ -289,7 +289,7 @@ export default function CityPage({ params }: Props) {
                 <MapPin size={14} className="text-brand-amber" aria-hidden="true" />
                 Serving {city.name}, FL &amp; surrounding areas
               </p>
-              <p>Mon–Sat, 8:00am–7:00pm</p>
+              <p>24/7 — Always Available</p>
               <a
                 href={PHONE_TEL}
                 className="inline-flex items-center gap-2 text-brand-amber font-bold hover:text-brand-amber/80 transition-colors mt-2"

@@ -91,7 +91,7 @@ const whyUs = [
   {
     icon: Zap,
     title: 'Fast Response',
-    body: 'Most calls answered in under 2 minutes. Same-day appointments available 6 days a week.',
+    body: 'Most calls answered in under 2 minutes. Available 24/7 — a real person always picks up.',
   },
   {
     icon: Wrench,
@@ -172,7 +172,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <p className="mt-6 text-slate-400 text-sm">Mon–Sat 8:00am–7:00pm · Emergency service available</p>
+            <p className="mt-6 text-slate-400 text-sm">Available 24/7 · A real person always answers</p>
           </div>
 
           {/* Rating card */}
@@ -324,7 +324,7 @@ export default function HomePage() {
       {/* ── Final CTA ── */}
       <CTABanner
         heading="Ready to Fix Your Garage Door?"
-        subtext="Get a free quote today. Same-day service available Mon–Sat, 8am–7pm."
+        subtext="Get a free quote today. Available 24/7 — same-day service, real people answer."
       />
     </>
   )

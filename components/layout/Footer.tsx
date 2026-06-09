@@ -35,7 +35,7 @@ export function Footer() {
             </a>
             <div className="flex items-center gap-2">
               <Clock size={16} className="text-brand-amber shrink-0" aria-hidden="true" />
-              <span>Mon–Sat, 8:00am–7:00pm</span>
+              <span>24/7 — We Always Answer</span>
             </div>
           </address>
         </div>

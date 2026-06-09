@@ -243,13 +243,13 @@ export const SERVICES: Service[] = [
       'garage door stuck closed',
       'after hours garage door service',
     ],
-    description: "Garage door emergencies don't wait for business hours — and neither do we. Call now and a real person answers every time.",
-    longDescription: 'Garage door emergencies don\'t wait for business hours — and neither do we. Whether your door is stuck open leaving your home unsecured, a broken spring has your car trapped inside, or a failed opener has you locked out, our team dispatches fast across all of Central Florida. We serve Orlando, Kissimmee, Lakeland, Winter Haven, Altamonte Springs, Winter Garden, Lake Nona, Plant City, and every city in Polk, Orange, Osceola, and Lake Counties. Call (702) 935-3283 any time you need emergency garage door repair — you will always speak with a live team member, never an automated system or voicemail. We carry fully stocked trucks so most emergency repairs are completed in one visit. Same fair pricing as standard calls — no hidden emergency surcharges ever.',
+    description: 'Available 24/7 — call any time and a real person will answer. We never send you to voicemail.',
+    longDescription: 'We are available 24 hours a day, 7 days a week — because garage door emergencies don\'t follow a schedule. Whether your door is stuck open leaving your home unsecured, a broken spring has your car trapped inside, or a failed opener has you locked out at 2am, our team dispatches fast across all of Central Florida. We serve Orlando, Kissimmee, Lakeland, Winter Haven, Altamonte Springs, Winter Garden, Lake Nona, Plant City, and every city in Polk, Orange, Osceola, and Lake Counties. Call (702) 935-3283 any time — you will always speak with a live team member, never an automated system or voicemail. We carry fully stocked trucks so most emergency repairs are completed in one visit. Same fair pricing around the clock — no hidden surcharges ever.',
     benefits: [
-      'Real person answers every call — no automated systems or voicemail',
+      '24/7 availability — real person answers every call, day or night',
       'Fast dispatch across Orlando, Kissimmee, Lakeland & all of Central Florida',
       'Fully stocked trucks — most emergency repairs done in one visit',
-      'Same fair pricing — no hidden emergency surcharges',
+      'Same fair pricing 24/7 — no hidden emergency surcharges',
     ],
     faqs: [
       {

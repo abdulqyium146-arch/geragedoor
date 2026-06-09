@@ -52,7 +52,7 @@ export function QuoteForm() {
       <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
         <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" aria-hidden="true" />
         <h3 className="text-xl font-display font-bold text-brand-slate mb-2">We&apos;ll Be In Touch Soon!</h3>
-        <p className="text-brand-steel">Thanks for reaching out. We typically respond within 1 hour during business hours (Mon–Sat, 8am–7pm).</p>
+        <p className="text-brand-steel">Thanks for reaching out. We typically respond within 1 hour — available 24/7.</p>
         <button
           onClick={() => setStatus('idle')}
           className="mt-6 text-brand-sky font-semibold hover:underline text-sm"

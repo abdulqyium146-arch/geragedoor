@@ -9,7 +9,7 @@ interface Props {
 
 export function CTABanner({
   heading = 'Ready to Get Started?',
-  subtext = 'Call us today for a free estimate. Available Mon–Sat, 8am–7pm.',
+  subtext = 'Call us today for a free estimate. Available 24/7 — a real person always answers.',
 }: Props) {
   return (
     <section className="bg-brand-amber py-14 px-4" aria-label="Call to action">

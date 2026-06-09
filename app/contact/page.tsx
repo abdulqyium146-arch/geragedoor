@@ -8,7 +8,7 @@ import { PHONE_TEL, PHONE_DISPLAY } from '@/components/ui/PhoneLink'
 export const metadata: Metadata = {
   title: 'Free Garage Door Quote | Central Florida | Call (702) 935-3283',
   description:
-    'Get a free garage door estimate in Central Florida. Call (702) 935-3283 or fill out our form. We respond within 1 hour. Mon–Sat 8am–7pm.',
+    'Get a free garage door estimate in Central Florida. Call (702) 935-3283 or fill out our form. We respond within 1 hour. Available 24/7.',
   alternates: { canonical: 'https://garagedoorsolutionsofcf.com/contact' },
   openGraph: {
     title: 'Contact Us | Free Garage Door Quote | (702) 935-3283',
@@ -27,7 +27,7 @@ const faqSchema = {
       name: 'How quickly will you respond to my quote request?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We typically respond within 1 hour during business hours (Mon–Sat, 8am–7pm). For urgent needs, please call us directly.',
+        text: 'We typically respond within 1 hour. For urgent needs, call us directly — we are available 24/7 and a real person will always answer.',
       },
     },
     {
@@ -43,7 +43,7 @@ const faqSchema = {
       name: 'Do you offer emergency service?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, we offer extended-hours emergency service. Call (702) 935-3283 and you will speak with a live team member.',
+        text: 'Yes, we are available 24/7. Call (702) 935-3283 any time and you will speak with a live team member — never a voicemail or automated system.',
       },
     },
   ],
@@ -52,7 +52,7 @@ const faqSchema = {
 const faqs = [
   {
     q: 'How quickly will you respond to my request?',
-    a: 'We typically respond within 1 hour during business hours (Mon–Sat, 8am–7pm). For urgent needs, please call us directly at (702) 935-3283.',
+    a: 'We typically respond within 1 hour. We are available 24/7 — for urgent needs call (702) 935-3283 directly and a real person will answer.',
   },
   {
     q: 'Is the quote really free?',
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: 'Do you offer same-day service?',
-    a: 'Yes! We offer same-day appointments for most repairs throughout Central Florida, Monday through Saturday.',
+    a: 'Yes! We offer same-day appointments for most repairs throughout Central Florida, available 24/7.',
   },
   {
     q: 'What areas do you serve?',
@@ -136,8 +136,8 @@ export default function ContactPage() {
                   <Clock size={16} className="text-brand-amber mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-brand-slate">Hours</p>
-                    <p>Mon–Sat, 8:00am–7:00pm</p>
-                    <p>Emergency service available</p>
+                    <p>24/7 — Always Available</p>
+                    <p>Real person answers every call</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
